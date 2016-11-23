@@ -1,0 +1,33 @@
+.soc_content {
+    background-color: white;
+    padding: 20px;
+    border-top: 5px solid black;
+    border-bottom: 10px solid black;
+	max-width:1024px;
+	margin:0px auto;
+}
+.mm-settings-table{
+	width: 100%;
+}
+.mm-settings-table td{
+	width: 25%;
+}
+.soc_content input[type="submit"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+.soc_content input[type="submit"]:hover {
+	background-color: gray;
+}
+.soc_content #wp-mm-remind-email-content-media-buttons *{
+	display:none !important;
+}
+.soc_content #wp-mm-remind-email-content-media-buttons #insert-media-button, .soc_content #wp-mm-remind-email-content-media-buttons #insert-media-button *{
+	display:inline !important;
+}
+div#wp-mm-remind-email-content-media-buttons {
+    width: 120px;
+    height: 30px;
+    overflow: hidden;
+}
